@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# MARTINO SORBARO <martino.sorbaro@posteo.net>, 2021.
+#
 # Translators:
-# Martino Sorbaro <martino.sorbaro@posteo.net>, 2020
-# Martino Sorbaro <martino.sorbaro@posteo.net>, 2021
-# 
+# Martino Sorbaro <martino.sorbaro@posteo.net>, 2020, 2021
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
@@ -7290,4 +7289,3 @@ msgstr ""
 "    \"Se trovi qualcosa sul web,\n"
 "    vuol dire che qualcun altro era confuso a sufficienza da disturbarsi a scrivere un post su un blog o su\n"
 "    StackOverflow, e quindi è probabile che non sia un problema banale.\""
-
