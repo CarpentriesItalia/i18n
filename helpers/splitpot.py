@@ -104,11 +104,13 @@ class Pofiles:
     def join(self, source_dir, language):
         # TODO check that filenames are there to be joint
         # get all the files on source_dir/*.language.po
-        list_translations = glob.glob(f"{source_dir}/{language}/*.po")
+        dir = f"{source_dir}/translations/*/{language}.po"
+        list_translations = glob.glob(dir)
         list_translations.sort()
         # read them all and join them with a single header # NOTE should we join the header info too? (eg., authors)
         all_content = []
         translators = []
+        assert list_translations, f"No files found in at {dir}"
         last_touch = ('name', '"PO-Revision-Date: 2000-01-01 00:00:00+0000\\n"\n')
         for file_translated in list_translations:
             with open(file_translated, 'r') as section:
